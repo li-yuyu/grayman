@@ -4,7 +4,7 @@
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.lyle.grayman</groupId>
     <artifactId>grayman</artifactId>
-    <version>1.0</version>
+    <version>1.0.0</version>
     <modules>
         <module>grayman-agent</module>
         <module>grayman-plugins</module>
