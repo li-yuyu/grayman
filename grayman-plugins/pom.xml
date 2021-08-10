@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <parent>
+        <groupId>com.lyle.grayman</groupId>
+        <artifactId>grayman</artifactId>
+        <version>1.0.0</version>
+        <relativePath>../pom.xml</relativePath>
+    </parent>
+    <modelVersion>4.0.0</modelVersion>
+
+    <artifactId>grayman-plugins</artifactId>
+    <packaging>pom</packaging>
+    <modules>
+        <module>servlet-plugin</module>
+        <module>feign-plugin</module>
+        <module>ribbon-plugin</module>
+        <module>eureka-plugin</module>
+        <module>java-net-urlconnection-plugin</module>
+        <module>spring-boot-resttemplate-plugin</module>
+        <module>apache-httpclient-plugin</module>
+        <module>thread-plugin</module>
+        <module>apache-rocketmq-plugin</module>
+        <module>apollo-plugin</module>
+        <module>zuul-plugin</module>
+        <module>gateway-plugin</module>
+    </modules>
+</project>
