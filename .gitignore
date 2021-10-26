@@ -1,0 +1,5 @@
+/.idea/
+*.iml
+*.jar
+**/target/
+/grayman-agent/dependency-reduced-pom.xml
